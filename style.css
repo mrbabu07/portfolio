@@ -58,9 +58,61 @@ header button{
     border: none;
     transition: 0.3s;
 }
-header button nav button:hover {
+header button:hover {
     background-color: #372fff;
     cursor: pointer;
+}
+
+.action-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    height: 328px;
+    width: 1140px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9fbff;
+    border-radius: 20px;
+}
+
+.action-section-left {
+    max-width: 500px;
+}
+
+.action-section-left h1 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 16px;
+}
+
+.action-section-left p {
+    font-size: 16px;
+    color: #6b7280;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.action-section-left button {
+    background-color: #4E47FF;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.action-section-left button:hover {
+    background-color: #372fff;
+}
+
+.action-section-right img {
+    width: 100%;
+    max-width: 480px;
+    border-radius: 30px;
 }
 
 
