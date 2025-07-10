@@ -235,4 +235,52 @@ body {
   color: #999;
 }
 
+.focus-better{
+    max-height: 696px;
+    max-width: 1140px;
+    justify-content: center;
+}
+.cta-section {
+  width: 1140px;
+  margin: 60px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+
+.cta-heading {
+  font-size: 36px;
+  font-weight: bold;
+  color: #1e1e1e;
+}
+
+.cta-subtitle {
+  font-size: 16px;
+  color: #444;
+  max-width: 700px;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #4a3aff;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #3a2ee6;
+}
+
+.cta-image {
+  width: 100%;
+  max-width: 1140px;
+  border-radius: 24px;
+}
+
 
