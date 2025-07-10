@@ -154,11 +154,19 @@ header button:hover {
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "Raleway", sans-serif;
   background-color: #f6f8ff;
   margin: 0;
   padding: 0;
 }
+
+.raleway {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
 
 #testimonials {
   padding: 60px 20px;
@@ -283,4 +291,95 @@ body {
   border-radius: 24px;
 }
 
+.contact-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 60px 20px;
+  box-sizing: border-box;
+}
 
+.contact-container {
+  width: 1140px;
+  height: 632px;
+  display: flex;
+  gap: 60px;
+  align-items: flex-start;
+}
+
+.contact-text {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.contact-heading {
+  font-size: 48px;
+  font-weight: bold;
+  color: #1e1e1e;
+   line-height: 1.2; 
+   margin-top: 100px;
+   justify-content: center;
+}
+
+.contact-form {
+  flex: 1;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contact-form label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #1e1e1e;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px 16px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  resize: none;
+}
+
+.contact-form textarea {
+  height: 120px;
+}
+
+.contact-form button {
+    
+  margin-top: 10px;
+  background-color: #4a3aff;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #3a2ee6;
+}
+
+
+
+
+
+.open-sans-<uniquifier> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
