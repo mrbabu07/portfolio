@@ -14,7 +14,7 @@ nav {
     display: flex;
     justify-content: space-between;
     width: 1140px;
-    height: 150px;
+    height: 151px;
     margin: 0 auto;
     align-items: center;
     gap: auto;
@@ -22,8 +22,8 @@ nav {
 }
 nav h1{
     color: #4E47FF;
-    font-weight: bold;
-    font-size: 25px;
+    font-weight: 900;
+    font-size: 30px;
     
 }
 nav button{
@@ -120,12 +120,13 @@ header button:hover {
 .stats-container {
   background-color: #efedfe;
   border-radius: 12px;
-  padding: 40px;
+  padding: 50px 80px;
   text-align: center;
   max-width: 1140px;
-  max-height: 632px;
+  max-height: 306px;
   margin: auto;
   font-family: sans-serif;
+  gap: 10px;
 }
 
 .stats-container h2 {
@@ -157,7 +158,7 @@ header button:hover {
 
 body {
   font-family: "Raleway", sans-serif;
-  background-color: #f6f8ff;
+  background-color: #f5f5f5;
   margin: 0;
   padding: 0;
 }
@@ -383,8 +384,10 @@ body {
 }
 
 .footer-logo {
-  font-size: 48px;
-  font-weight: bold;
+    
+  font-size: 60px;
+  font-weight: 900;
+  
   color: #4a3aff;
   margin-bottom: 16px;
 }
